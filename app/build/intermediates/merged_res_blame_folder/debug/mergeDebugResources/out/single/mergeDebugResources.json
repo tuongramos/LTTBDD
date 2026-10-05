@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.example.profileui.app-debug-32:/drawable_ic_arrow_back.xml.flat",
+        "source": "com.example.profileui.app-main-34:/drawable/ic_arrow_back.xml"
+    },
+    {
+        "merged": "com.example.profileui.app-debug-32:/drawable_avatar_student.jpg.flat",
+        "source": "com.example.profileui.app-main-34:/drawable/avatar_student.jpg"
+    },
+    {
+        "merged": "com.example.profileui.app-debug-32:/drawable_bg_action_button.xml.flat",
+        "source": "com.example.profileui.app-main-34:/drawable/bg_action_button.xml"
+    },
+    {
+        "merged": "com.example.profileui.app-debug-32:/drawable_ic_edit.xml.flat",
+        "source": "com.example.profileui.app-main-34:/drawable/ic_edit.xml"
+    },
+    {
+        "merged": "com.example.profileui.app-debug-32:/layout_activity_main.xml.flat",
+        "source": "com.example.profileui.app-main-34:/layout/activity_main.xml"
+    }
+]
