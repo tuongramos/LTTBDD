@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Thuc hanh 1</string>
+    <string name="student_name">Nguyễn Mạnh Tường - CN2301CLCA</string>
+    <string name="student_id">Mong muốn của em sau khi học xong môn này là sẽ học được tất cả các yêu cầu và cách thức để xây dựng 1 app di động hoàn chỉnh, sau đó có thể hoàn thiện dự án cá nhân là 1 app di động cho riêng mình. </string>
+    <string name="desc_back">Quay lại</string>
+    <string name="desc_edit">Chỉnh sửa thông tin</string>
+    <string name="desc_avatar">Ảnh đại diện sinh viên</string>
+</resources>
