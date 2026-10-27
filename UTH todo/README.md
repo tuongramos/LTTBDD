@@ -1,6 +1,6 @@
 # UTH Todo — Navigation + OOP
 
-Dự án Kotlin / Jetpack Compose tái tạo **đúng 4 màn** trong bài tập: Start và 3 màn onboarding UTH Todo V2.
+Dự án Kotlin / Jetpack Compose.
 
 ## Mở và chạy trong Android Studio
 
@@ -33,19 +33,6 @@ SDK hiện tại được cấu hình bằng `local.properties`: `D:\Androidstud
 | `DesignFrame`, `TodoDesign` | Kích thước, màu sắc và kiểu chữ dùng chung |
 
 UI nhận đối tượng nội dung và callback. Tài nguyên minh họa là hình trang trí trích từ SVG gốc.
-
-## Đối chiếu Figma
-
-- Nguồn: `docs/figma/`, giữ nguyên 4 SVG người dùng cung cấp.
-- Start: **400 × 860**. Onboarding: **390 × 844**.
-- Các file Section có nhãn tên nằm ngoài khung điện thoại. Ứng dụng lấy vùng `x=3, y≈31, w=390, h=844` để bỏ nhãn và bóng của khung ngoài.
-- Màu chính `#2F5BEA`; font **Be Vietnam Pro**, đủ trọng lượng 400/500/600/700/800, có sẵn trong ứng dụng và dùng được khi ngoại tuyến.
-- Logo, 3 hình minh họa và bóng đổ được xuất từ SVG ở **3x**.
-- Tiêu đề 28/36 px, tracking −0,4 px; mô tả 16/24 px; chữ nút 17 px, đậm 600.
-- Lề ngang 28 px, logo 32 × 32 px ở (28,66), hình minh họa 280 × 300 px ở (55,171), nút cao 56 px ở y=748, bo góc 16 px.
-- Nội dung được bố trí theo hệ tọa độ gốc rồi co giãn đồng đều theo màn hình để giữ tỷ lệ. Thanh hệ thống ẩn để khớp bản thiết kế; vùng thừa trên thiết bị khác tỷ lệ dùng cùng màu nền.
-- Bo góc 44 px trong Figma mô phỏng mép điện thoại; màn Android thực tế dùng mép màn hình của thiết bị.
-
 ## Kiểm tra
 
 ```powershell
@@ -54,12 +41,4 @@ $env:JAVA_HOME = 'C:/Users/Acer/.jdks/jbr-17.0.14'
 .\gradlew.bat connectedDebugAndroidTest
 ```
 
-Unit test kiểm tra chuyển trang, quay lại, bỏ qua và chỉ số khôi phục ngoài phạm vi. Instrumentation test kiểm tra thao tác Compose và lưu ảnh 4 màn để đối chiếu.
-
 APK debug sau build: `app/build/outputs/apk/debug/app-debug.apk`.
-
-Kết quả đã thực hiện: **5 unit test và 6 kiểm thử Android đạt**, Android Lint **0 lỗi**. Xem `docs/VERIFICATION.md` và ảnh đối chiếu `docs/comparison.png`.
-
-Có thể tái xuất tài nguyên bằng `node tools/export-figma-assets.cjs` sau khi cài `@resvg/resvg-js@2.6.2` trong `tools/`. Công cụ này chỉ dùng khi phát triển; ứng dụng Android không cần Node.js.
-
-Font phát hành theo SIL Open Font License, xem `docs/FONT-LICENSE.txt` và [kho Google Fonts](https://github.com/google/fonts/tree/main/ofl/bevietnampro).
