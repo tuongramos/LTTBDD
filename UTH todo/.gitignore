@@ -1,0 +1,10 @@
+.gradle/
+.kotlin/
+.idea/
+**/build/
+local.properties
+*.iml
+tools/node_modules/
+tools/*.tgz
+docs/*.log
+docs/build-threads.txt

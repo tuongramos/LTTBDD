@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">UI App Week 1</string>
-    <string name="student_name">Nguyễn Mạnh Tường</string>
-    <string name="student_id">0862025008776</string>
-    <string name="desc_back">Quay lại</string>
-    <string name="desc_edit">Chỉnh sửa thông tin</string>
-    <string name="desc_avatar">Ảnh đại diện sinh viên</string>
-</resources>
