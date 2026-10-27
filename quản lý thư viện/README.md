@@ -106,22 +106,6 @@ app/src/main/java/com/example/quanlythuvien/
 ```
 
 `ViewModel` chỉ công bố trạng thái mới sau khi lưu thành công. Nếu ghi thất bại, trạng thái đang hiển thị được giữ nguyên và có thông báo. Nếu đọc dữ liệu lỗi, ứng dụng cho phép thử lại, không tự ghi đè dữ liệu cũ bằng dữ liệu mẫu.
-
-## Kiểm thử
-
-Kết quả đã chạy trên máy hiện tại ngày **26/10/2026**:
-
-- Build APK: **thành công**.
-- Unit test: **11/11 đạt**, không bỏ qua bài kiểm thử nào.
-- Kiểm thử thiết bị trên **Medium Phone, Android 15 (API 35)**: **2/2 đạt**.
-- Android Lint: **0 lỗi**; còn các cảnh báo không chặn build về phiên bản thư viện, cấu hình backup và kiểu collection của trạng thái lựa chọn (mã luôn gán danh sách mới khi thay đổi).
-
-- `LibraryManagerTest`: nullable, tính hạn trả theo đa hình, chặn mượn trùng, tính toàn vẹn khi mượn nhiều sách, kiểm tra ID, trả đúng người, mã sinh viên trùng, kiểm tra dữ liệu đầu vào, đóng gói danh sách và khôi phục trạng thái.
-- `LibraryAppTest`: chuyển 3 tab, mượn/trả sách, chọn sinh viên, thêm sách/sinh viên, tạo lại Activity và lưu/đọc JSON với thuộc tính null.
-- Báo cáo JVM: `app/build/reports/tests/testDebugUnitTest/index.html`.
-- Báo cáo Lint: `app/build/reports/lint-results-debug.html`.
-- Báo cáo thiết bị: `app/build/reports/androidTests/connected/debug/index.html`.
-
 ## Ảnh chạy thực tế trên máy ảo
 
 | Quản lý | DS Sách | Sinh viên |
