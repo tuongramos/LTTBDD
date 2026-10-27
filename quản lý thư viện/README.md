@@ -1,6 +1,6 @@
 # Hệ thống Quản lý Thư viện — Bài tập tuần 4
 
-Ứng dụng **Kotlin + Jetpack Compose**, gồm **3 trang**: **Quản lý**, **DS Sách**, **Sinh viên**. Khung iPhone trong đề chỉ là hình minh họa; ứng dụng chạy trên Android, không vẽ viền iPhone.
+Ứng dụng **Kotlin + Jetpack Compose**, gồm **3 trang**: **Quản lý**, **DS Sách**, **Sinh viên**.
 
 ## Mở và chạy bằng Android Studio
 
@@ -130,19 +130,3 @@ Kết quả đã chạy trên máy hiện tại ngày **26/10/2026**:
 
 Ảnh thứ hai và thứ ba có thông báo kết quả thao tác vì được chụp trong chuỗi kiểm thử thực tế. Biểu mẫu/danh sách có thể cuộn khi nội dung dài hoặc màn hình nhỏ.
 
-## Đưa lên GitHub
-
-Ảnh đề bài nhắc nộp lên GitHub. Mã nguồn đã có `.gitignore`; chưa tạo repository hoặc đẩy lên tài khoản nào. Khi đã có repository của bạn, có thể chạy:
-
-```powershell
-git init
-git add .
-git commit -m "Hoan thanh bai tap quan ly thu vien Kotlin Compose"
-git branch -M main
-git remote add origin https://github.com/TEN-TAI-KHOAN/TEN-REPOSITORY.git
-git push -u origin main
-```
-
-Thay URL mẫu bằng repository thật. Không đưa `local.properties`, `.idea`, `.gradle`, thư mục `build` hoặc thông tin đăng nhập lên GitHub.
-
-Tài liệu tham khảo: [Kotlin — Compose compiler](https://kotlinlang.org/docs/compose-compiler-migration-guide.html), [Android — Compose BOM](https://developer.android.com/develop/ui/compose/bom).
